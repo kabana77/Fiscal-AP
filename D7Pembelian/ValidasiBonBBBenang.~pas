@@ -546,6 +546,7 @@ end;
 procedure TValidasiBonBBBenangFrm.QDetailNewRecord(DataSet: TDataSet);
 begin
   QDetailOPR_INSERT.AsString:=DMFrm.QUserNAMA_USER.AsString;
+  QDetailQTY_BISFA.AsFloat:=QDetailQTY.AsFloat*1.0198;
 end;
 
 procedure TValidasiBonBBBenangFrm.QTransaksiBeforeInsert(DataSet: TDataSet);

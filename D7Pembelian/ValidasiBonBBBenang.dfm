@@ -218,7 +218,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               37.041666666666670000
               0.000000000000000000
               158.750000000000000000
-              296.333333333333400000)
+              296.333333333333300000)
             Alignment = taLeftJustify
             AlignToBand = True
             AutoSize = True
@@ -1148,7 +1148,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawRight = False
             Size.Values = (
               55.562500000000000000
-              756.708333333333400000
+              756.708333333333300000
               37.041666666666670000
               386.291666666666700000)
             Alignment = taCenter
@@ -1292,7 +1292,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Size.Values = (
               37.041666666666670000
               0.000000000000000000
-              84.666666666666680000
+              84.666666666666670000
               148.166666666666700000)
             Alignment = taLeftJustify
             AlignToBand = True
@@ -1348,7 +1348,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Size.Values = (
               37.041666666666670000
               1426.104166666667000000
-              82.020833333333340000
+              82.020833333333330000
               121.708333333333300000)
             Alignment = taRightJustify
             AlignToBand = False
@@ -1444,7 +1444,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Size.Values = (
               37.041666666666670000
               10.583333333333330000
-              42.333333333333340000
+              42.333333333333330000
               39.687500000000000000)
             Alignment = taLeftJustify
             AlignToBand = False
@@ -1468,8 +1468,8 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              66.145833333333340000
-              42.333333333333340000
+              66.145833333333330000
+              42.333333333333330000
               127.000000000000000000)
             Alignment = taLeftJustify
             AlignToBand = False
@@ -1494,8 +1494,8 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Size.Values = (
               37.041666666666670000
               235.479166666666700000
-              68.791666666666680000
-              82.020833333333340000)
+              68.791666666666670000
+              82.020833333333330000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -1519,8 +1519,8 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Size.Values = (
               37.041666666666670000
               545.041666666666700000
-              68.791666666666680000
-              84.666666666666680000)
+              68.791666666666670000
+              84.666666666666670000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -1602,7 +1602,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              918.104166666666800000
+              918.104166666666700000
               10.583333333333330000
               79.375000000000000000)
             Alignment = taLeftJustify
@@ -1737,7 +1737,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Size.Values = (
               37.041666666666670000
               1695.979166666667000000
-              68.791666666666680000
+              68.791666666666670000
               95.250000000000000000)
             Alignment = taLeftJustify
             AlignToBand = False
@@ -1762,7 +1762,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Size.Values = (
               37.041666666666670000
               1828.270833333333000000
-              68.791666666666680000
+              68.791666666666670000
               55.562500000000000000)
             Alignment = taLeftJustify
             AlignToBand = False
@@ -1821,8 +1821,8 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Size.Values = (
               37.041666666666670000
               1561.041666666667000000
-              68.791666666666680000
-              82.020833333333340000)
+              68.791666666666670000
+              82.020833333333330000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -1846,7 +1846,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Size.Values = (
               37.041666666666670000
               1420.812500000000000000
-              68.791666666666680000
+              68.791666666666670000
               79.375000000000000000)
             Alignment = taCenter
             AlignToBand = False
@@ -1871,8 +1871,8 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Size.Values = (
               37.041666666666670000
               1283.229166666667000000
-              68.791666666666680000
-              82.020833333333340000)
+              68.791666666666670000
+              82.020833333333330000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -1896,7 +1896,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Size.Values = (
               37.041666666666670000
               1129.770833333333000000
-              68.791666666666680000
+              68.791666666666670000
               79.375000000000000000)
             Alignment = taCenter
             AlignToBand = False
@@ -1921,8 +1921,8 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Size.Values = (
               37.041666666666670000
               992.187500000000000000
-              68.791666666666680000
-              82.020833333333340000)
+              68.791666666666670000
+              82.020833333333330000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -1945,8 +1945,8 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              846.666666666666800000
-              68.791666666666680000
+              846.666666666666700000
+              68.791666666666670000
               79.375000000000000000)
             Alignment = taCenter
             AlignToBand = False
@@ -2077,7 +2077,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            42.333333333333340000
+            42.333333333333330000
             1902.354166666667000000)
           BandType = rbDetail
           object QRDBText17: TQRDBText
@@ -2614,7 +2614,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               37.041666666666670000
               1497.541666666667000000
               21.166666666666670000
-              76.729166666666680000)
+              76.729166666666670000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2646,7 +2646,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               37.041666666666670000
               1497.541666666667000000
               169.333333333333300000
-              76.729166666666680000)
+              76.729166666666670000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2678,7 +2678,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               37.041666666666670000
               1137.708333333333000000
               21.166666666666670000
-              76.729166666666680000)
+              76.729166666666670000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2710,7 +2710,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               37.041666666666670000
               1137.708333333333000000
               169.333333333333300000
-              76.729166666666680000)
+              76.729166666666670000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2742,7 +2742,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               37.041666666666670000
               418.041666666666700000
               21.166666666666670000
-              76.729166666666680000)
+              76.729166666666670000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2774,7 +2774,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               37.041666666666670000
               418.041666666666700000
               169.333333333333300000
-              76.729166666666680000)
+              76.729166666666670000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2806,7 +2806,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               37.041666666666670000
               777.875000000000000000
               169.333333333333300000
-              76.729166666666680000)
+              76.729166666666670000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2838,7 +2838,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               37.041666666666670000
               777.875000000000000000
               21.166666666666670000
-              76.729166666666680000)
+              76.729166666666670000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2868,9 +2868,9 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawRight = False
             Size.Values = (
               47.625000000000000000
-              772.583333333333400000
+              772.583333333333300000
               211.666666666666700000
-              84.666666666666680000)
+              84.666666666666670000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2902,7 +2902,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               47.625000000000000000
               1132.416666666667000000
               211.666666666666700000
-              84.666666666666680000)
+              84.666666666666670000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2934,7 +2934,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               47.625000000000000000
               1492.250000000000000000
               211.666666666666700000
-              84.666666666666680000)
+              84.666666666666670000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2966,7 +2966,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               37.041666666666670000
               412.750000000000000000
               211.666666666666700000
-              84.666666666666680000)
+              84.666666666666670000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -3000,7 +3000,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            42.333333333333340000
+            42.333333333333330000
             1902.354166666667000000)
           BandType = rbPageFooter
           object QRSysData4: TQRSysData
@@ -3065,7 +3065,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              867.833333333333500000
+              867.833333333333300000
               0.000000000000000000
               164.041666666666700000)
             Alignment = taCenter
@@ -3110,8 +3110,8 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              859.895833333333400000
-              68.791666666666680000
+              859.895833333333300000
+              68.791666666666670000
               179.916666666666700000)
             Alignment = taCenter
             AlignToBand = True
@@ -4844,7 +4844,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               37.041666666666670000
               0.000000000000000000
               0.000000000000000000
-              296.333333333333400000)
+              296.333333333333300000)
             Alignment = taLeftJustify
             AlignToBand = True
             AutoSize = True
@@ -4868,9 +4868,9 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawRight = False
             Size.Values = (
               55.562500000000000000
-              740.833333333333200000
+              740.833333333333300000
               63.500000000000000000
-              415.395833333333400000)
+              415.395833333333300000)
             Alignment = taCenter
             AlignToBand = True
             AutoSize = True
@@ -4903,7 +4903,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            42.333333333333340000
+            42.333333333333330000
             1899.708333333333000000)
           BandType = rbColumnHeader
           object QRLabel1: TQRLabel
@@ -4949,7 +4949,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              84.666666666666680000
+              84.666666666666670000
               0.000000000000000000
               140.229166666666700000)
             Alignment = taLeftJustify
@@ -5044,7 +5044,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               37.041666666666670000
               762.000000000000000000
               0.000000000000000000
-              82.020833333333340000)
+              82.020833333333330000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -5073,7 +5073,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              931.333333333333500000
+              931.333333333333300000
               0.000000000000000000
               330.729166666666700000)
             Alignment = taLeftJustify
@@ -5106,7 +5106,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               37.041666666666670000
               1815.041666666667000000
               0.000000000000000000
-              74.083333333333340000)
+              74.083333333333330000)
             Alignment = taRightJustify
             AlignToBand = False
             AutoSize = True
@@ -5137,7 +5137,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               37.041666666666670000
               1656.291666666667000000
               0.000000000000000000
-              42.333333333333340000)
+              42.333333333333330000)
             Alignment = taRightJustify
             AlignToBand = False
             AutoSize = True
@@ -5170,7 +5170,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            42.333333333333340000
+            42.333333333333330000
             1899.708333333333000000)
           BandType = rbDetail
           object QRDBText3: TQRDBText
@@ -5340,7 +5340,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               37.041666666666670000
               1815.041666666667000000
               0.000000000000000000
-              76.729166666666680000)
+              76.729166666666670000)
             Alignment = taRightJustify
             AlignToBand = False
             AutoSize = True
@@ -5367,7 +5367,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               37.041666666666670000
               1640.416666666667000000
               0.000000000000000000
-              60.854166666666680000)
+              60.854166666666670000)
             Alignment = taRightJustify
             AlignToBand = False
             AutoSize = True
@@ -5396,7 +5396,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            359.833333333333400000
+            359.833333333333300000
             1899.708333333333000000)
           BandType = rbSummary
           object QRLabel9: TQRLabel
@@ -5411,7 +5411,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              859.895833333333400000
+              859.895833333333300000
               63.500000000000000000
               179.916666666666700000)
             Alignment = taCenter
@@ -5634,7 +5634,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            42.333333333333340000
+            42.333333333333330000
             1899.708333333333000000)
           BandType = rbPageFooter
           object QRSysData2: TQRSysData

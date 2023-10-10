@@ -570,11 +570,11 @@ begin
       ShowMessage('Maaf, Anda tidak berhak merubah data !');
       Abort;
   end;
-  if QTransaksiISPOST.AsString='1' then
+  {if QTransaksiISPOST.AsString='1' then
   begin
       ShowMessage('Maaf, data sudah di-POSTING, tidak bisa diubah !');
       Abort;
-  end;
+  end;}
 end;
 
 procedure TValidasiBonBBBenangFrm.DBText1Click(Sender: TObject);

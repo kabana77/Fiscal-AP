@@ -1543,7 +1543,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawRight = False
             Size.Values = (
               119.062500000000000000
-              58.208333333333330000
+              58.208333333333320000
               0.000000000000000000
               2.645833333333333000)
             Shape = qrsRectangle
@@ -1702,7 +1702,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawRight = False
             Size.Values = (
               119.062500000000000000
-              814.916666666666700000
+              814.916666666666800000
               0.000000000000000000
               2.645833333333333000)
             Shape = qrsRectangle
@@ -1720,7 +1720,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Size.Values = (
               2.645833333333333000
               201.083333333333300000
-              58.208333333333330000
+              58.208333333333320000
               1701.270833333333000000)
             Shape = qrsRectangle
           end
@@ -1802,9 +1802,9 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawLeft = False
             Frame.DrawRight = False
             Size.Values = (
-              60.854166666666670000
+              60.854166666666680000
               1815.041666666667000000
-              58.208333333333330000
+              58.208333333333320000
               2.645833333333333000)
             Shape = qrsRectangle
           end
@@ -2003,9 +2003,9 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawLeft = False
             Frame.DrawRight = False
             Size.Values = (
-              60.854166666666670000
+              60.854166666666680000
               1526.645833333333000000
-              58.208333333333330000
+              58.208333333333320000
               2.645833333333333000)
             Shape = qrsRectangle
           end
@@ -2020,9 +2020,9 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawLeft = False
             Frame.DrawRight = False
             Size.Values = (
-              60.854166666666670000
+              60.854166666666680000
               1248.833333333333000000
-              58.208333333333330000
+              58.208333333333320000
               2.645833333333333000)
             Shape = qrsRectangle
           end
@@ -2037,9 +2037,9 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawLeft = False
             Frame.DrawRight = False
             Size.Values = (
-              60.854166666666670000
+              60.854166666666680000
               960.437500000000000000
-              58.208333333333330000
+              58.208333333333320000
               2.645833333333333000)
             Shape = qrsRectangle
           end
@@ -2054,9 +2054,9 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawLeft = False
             Frame.DrawRight = False
             Size.Values = (
-              60.854166666666670000
+              60.854166666666680000
               365.125000000000000000
-              58.208333333333330000
+              58.208333333333320000
               2.645833333333333000)
             Shape = qrsRectangle
           end
@@ -2144,7 +2144,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              820.208333333333300000
+              820.208333333333200000
               0.000000000000000000
               134.937500000000000000)
             Alignment = taRightJustify
@@ -2301,7 +2301,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
               37.041666666666670000
               1820.333333333333000000
               0.000000000000000000
-              97.895833333333330000)
+              97.895833333333320000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = False
@@ -2325,7 +2325,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawRight = False
             Size.Values = (
               79.375000000000000000
-              58.208333333333330000
+              58.208333333333320000
               0.000000000000000000
               2.645833333333333000)
             Shape = qrsRectangle
@@ -2376,7 +2376,7 @@ object ValidasiBonBBBenangFrm: TValidasiBonBBBenangFrm
             Frame.DrawRight = False
             Size.Values = (
               79.375000000000000000
-              814.916666666666700000
+              814.916666666666800000
               0.000000000000000000
               2.645833333333333000)
             Shape = qrsRectangle
