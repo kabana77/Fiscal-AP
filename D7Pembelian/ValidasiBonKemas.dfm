@@ -1,8 +1,8 @@
 object ValidasiBonKMSFrm: TValidasiBonKMSFrm
   Left = 195
   Top = 111
-  Width = 858
-  Height = 611
+  Width = 1028
+  Height = 686
   Caption = 'Validasi Bon Kemas'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -23,8 +23,8 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
   TextHeight = 13
   object Panel1: TPanel
     Left = 0
-    Top = 517
-    Width = 842
+    Top = 592
+    Width = 1012
     Height = 55
     Align = alBottom
     TabOrder = 0
@@ -127,7 +127,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
   object Panel4: TPanel
     Left = 0
     Top = 0
-    Width = 842
+    Width = 1012
     Height = 41
     Align = alTop
     BevelOuter = bvNone
@@ -160,8 +160,8 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
   object PageControl1: TPageControl
     Left = 0
     Top = 41
-    Width = 842
-    Height = 476
+    Width = 1012
+    Height = 551
     ActivePage = TabSheet1
     Align = alClient
     Font.Charset = DEFAULT_CHARSET
@@ -2601,7 +2601,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
       object Panel2: TPanel
         Left = 0
         Top = 0
-        Width = 834
+        Width = 1004
         Height = 52
         Align = alTop
         BevelInner = bvLowered
@@ -2784,8 +2784,8 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
       object wwDBGrid1: TwwDBGrid
         Left = 0
         Top = 52
-        Width = 834
-        Height = 396
+        Width = 1004
+        Height = 471
         ControlType.Strings = (
           'ISPOST;CheckBox;1;0')
         PictureMasks.Strings = (
@@ -2857,7 +2857,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
       object Panel5: TPanel
         Left = 0
         Top = 0
-        Width = 834
+        Width = 1004
         Height = 121
         Align = alTop
         BevelOuter = bvNone
@@ -2886,7 +2886,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
           Caption = 'No. Bukti Bon'
         end
         object Panel8: TPanel
-          Left = 577
+          Left = 747
           Top = 0
           Width = 257
           Height = 121
@@ -3116,8 +3116,8 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
       end
       object Panel6: TPanel
         Left = 0
-        Top = 404
-        Width = 834
+        Top = 479
+        Width = 1004
         Height = 44
         Align = alBottom
         BevelInner = bvLowered
@@ -3193,7 +3193,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
       object Panel7: TPanel
         Left = 0
         Top = 121
-        Width = 834
+        Width = 1004
         Height = 41
         Align = alTop
         BevelOuter = bvNone
@@ -3222,7 +3222,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
           Caption = 'Status'
         end
         object Panel9: TPanel
-          Left = 577
+          Left = 747
           Top = 0
           Width = 257
           Height = 41
@@ -3448,8 +3448,8 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
       object wwDBGrid2: TwwDBGrid
         Left = 0
         Top = 162
-        Width = 834
-        Height = 242
+        Width = 1004
+        Height = 317
         ControlType.Strings = (
           'ISAKTIF;CheckBox;1;0'
           'ID_HAK;CustomEdit;LookJnsMenu;F'
@@ -3598,8 +3598,8 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
     AfterDelete = QTransaksiAfterDelete
     AfterScroll = QBrowseAfterScroll
     OnNewRecord = QTransaksiNewRecord
-    Left = 380
-    Top = 72
+    Left = 260
+    Top = 88
     object QTransaksiKD_TRANSAKSI: TStringField
       FieldName = 'KD_TRANSAKSI'
       Size = 3
@@ -3662,7 +3662,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
   end
   object dsQTransaksi: TwwDataSource
     DataSet = QTransaksi
-    Left = 404
+    Left = 388
     Top = 105
   end
   object QDetail: TOracleDataSet
@@ -3704,7 +3704,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
     BeforeDelete = QTransaksiBeforeEdit
     AfterScroll = QBrowseAfterScroll
     OnNewRecord = QDetailNewRecord
-    Left = 332
+    Left = 316
     Top = 105
     object QDetailSATUAN: TStringField
       FieldKind = fkLookup

@@ -1,8 +1,8 @@
 object MainFrm: TMainFrm
   Left = 341
   Top = 185
-  Width = 1386
-  Height = 505
+  Width = 1187
+  Height = 631
   Caption = 'PT. KABANATEX'
   Color = clActiveBorder
   Font.Charset = DEFAULT_CHARSET
@@ -156,7 +156,7 @@ object MainFrm: TMainFrm
   object LMDScrollText2: TLMDScrollText
     Left = 0
     Top = 35
-    Width = 1370
+    Width = 1171
     Height = 25
     BackFX.AlphaBlend.FillObject.Style = sfGradient
     BackFX.AlphaBlend.FillObject.Gradient.Color = clMaroon
@@ -183,8 +183,8 @@ object MainFrm: TMainFrm
   object Image1: TImage
     Left = 100
     Top = 60
-    Width = 1170
-    Height = 367
+    Width = 971
+    Height = 493
     Align = alClient
     Picture.Data = {
       0A544A504547496D61676500590100FFD8FFE1001845786966000049492A0008
@@ -2954,17 +2954,17 @@ object MainFrm: TMainFrm
     Left = 0
     Top = 60
     Width = 100
-    Height = 367
+    Height = 493
     Align = alLeft
     Color = clSilver
     ParentColor = False
     TabOrder = 0
   end
   inline FrameRightFrm1: TFrameRightFrm
-    Left = 1270
+    Left = 1071
     Top = 60
     Width = 100
-    Height = 367
+    Height = 493
     Align = alRight
     Color = clSilver
     ParentColor = False
@@ -2972,8 +2972,8 @@ object MainFrm: TMainFrm
   end
   object StatusBar1: TStatusBar
     Left = 0
-    Top = 427
-    Width = 1370
+    Top = 553
+    Width = 1171
     Height = 19
     Panels = <
       item
@@ -3000,7 +3000,7 @@ object MainFrm: TMainFrm
   object ToolBar1: TToolBar
     Left = 0
     Top = 0
-    Width = 1370
+    Width = 1171
     Height = 35
     ButtonHeight = 31
     ButtonWidth = 79

@@ -1,8 +1,8 @@
 object ValidasiBonKMSFrm: TValidasiBonKMSFrm
   Left = 195
   Top = 111
-  Width = 858
-  Height = 611
+  Width = 1028
+  Height = 686
   Caption = 'Validasi Bon Kemas'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -23,8 +23,8 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
   TextHeight = 13
   object Panel1: TPanel
     Left = 0
-    Top = 517
-    Width = 842
+    Top = 592
+    Width = 1012
     Height = 55
     Align = alBottom
     TabOrder = 0
@@ -127,7 +127,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
   object Panel4: TPanel
     Left = 0
     Top = 0
-    Width = 842
+    Width = 1012
     Height = 41
     Align = alTop
     BevelOuter = bvNone
@@ -160,8 +160,8 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
   object PageControl1: TPageControl
     Left = 0
     Top = 41
-    Width = 842
-    Height = 476
+    Width = 1012
+    Height = 551
     ActivePage = TabSheet1
     Align = alClient
     Font.Charset = DEFAULT_CHARSET
@@ -234,7 +234,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            66.145833333333330000
+            66.145833333333340000
             1902.354166666667000000)
           BandType = rbPageHeader
           object QRDBText13: TQRDBText
@@ -352,8 +352,8 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
             Frame.DrawRight = False
             Size.Values = (
               55.562500000000000000
-              743.479166666666700000
-              42.333333333333330000
+              743.479166666666600000
+              42.333333333333340000
               415.395833333333300000)
             Alignment = taCenter
             AlignToBand = True
@@ -471,7 +471,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
               37.041666666666670000
               0.000000000000000000
               127.000000000000000000
-              806.979166666666700000)
+              806.979166666666800000)
             Alignment = taLeftJustify
             AlignToBand = True
             AutoSize = False
@@ -496,7 +496,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
             Size.Values = (
               37.041666666666670000
               0.000000000000000000
-              84.666666666666670000
+              84.666666666666680000
               148.166666666666700000)
             Alignment = taLeftJustify
             AlignToBand = True
@@ -632,7 +632,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            84.666666666666670000
+            84.666666666666680000
             1902.354166666667000000)
           BandType = rbColumnHeader
           object QRLabel11: TQRLabel
@@ -647,8 +647,8 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              84.666666666666670000
-              42.333333333333330000
+              84.666666666666680000
+              42.333333333333340000
               108.479166666666700000)
             Alignment = taLeftJustify
             AlignToBand = False
@@ -679,8 +679,8 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
             Size.Values = (
               37.041666666666670000
               317.500000000000000000
-              42.333333333333330000
-              82.020833333333330000)
+              42.333333333333340000
+              82.020833333333340000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -710,7 +710,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
             Size.Values = (
               37.041666666666670000
               486.833333333333300000
-              42.333333333333330000
+              42.333333333333340000
               330.729166666666700000)
             Alignment = taLeftJustify
             AlignToBand = False
@@ -741,7 +741,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
             Size.Values = (
               37.041666666666670000
               1574.270833333333000000
-              42.333333333333330000
+              42.333333333333340000
               129.645833333333300000)
             Alignment = taRightJustify
             AlignToBand = False
@@ -772,7 +772,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
             Size.Values = (
               37.041666666666670000
               1082.145833333333000000
-              42.333333333333330000
+              42.333333333333340000
               119.062500000000000000)
             Alignment = taCenter
             AlignToBand = False
@@ -803,7 +803,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
             Size.Values = (
               37.041666666666670000
               21.166666666666670000
-              42.333333333333330000
+              42.333333333333340000
               44.979166666666670000)
             Alignment = taLeftJustify
             AlignToBand = False
@@ -865,7 +865,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
             Size.Values = (
               37.041666666666670000
               1320.270833333333000000
-              42.333333333333330000
+              42.333333333333340000
               79.375000000000000000)
             Alignment = taRightJustify
             AlignToBand = False
@@ -931,7 +931,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            42.333333333333330000
+            42.333333333333340000
             1902.354166666667000000)
           BandType = rbDetail
           object QRDBText17: TQRDBText
@@ -1026,7 +1026,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
               37.041666666666670000
               1640.416666666667000000
               0.000000000000000000
-              60.854166666666670000)
+              60.854166666666660000)
             Alignment = taRightJustify
             AlignToBand = False
             AutoSize = True
@@ -1171,7 +1171,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
               37.041666666666670000
               1497.541666666667000000
               21.166666666666670000
-              76.729166666666670000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -1203,7 +1203,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
               37.041666666666670000
               1497.541666666667000000
               169.333333333333300000
-              76.729166666666670000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -1235,7 +1235,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
               37.041666666666670000
               1492.250000000000000000
               206.375000000000000000
-              84.666666666666670000)
+              84.666666666666680000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -1267,7 +1267,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
               37.041666666666670000
               1137.708333333333000000
               21.166666666666670000
-              76.729166666666670000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -1299,7 +1299,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
               37.041666666666670000
               1137.708333333333000000
               169.333333333333300000
-              76.729166666666670000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -1331,7 +1331,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
               37.041666666666670000
               1132.416666666667000000
               206.375000000000000000
-              84.666666666666670000)
+              84.666666666666680000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -1363,7 +1363,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
               37.041666666666670000
               418.041666666666700000
               21.166666666666670000
-              76.729166666666670000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -1395,7 +1395,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
               37.041666666666670000
               418.041666666666700000
               169.333333333333300000
-              76.729166666666670000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -1427,7 +1427,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
               37.041666666666670000
               412.750000000000000000
               206.375000000000000000
-              84.666666666666670000)
+              84.666666666666680000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -1457,9 +1457,9 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              772.583333333333300000
+              772.583333333333400000
               206.375000000000000000
-              84.666666666666670000)
+              84.666666666666680000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -1491,7 +1491,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
               37.041666666666670000
               777.875000000000000000
               169.333333333333300000
-              76.729166666666670000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -1523,7 +1523,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
               37.041666666666670000
               777.875000000000000000
               21.166666666666670000
-              76.729166666666670000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -1557,7 +1557,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            42.333333333333330000
+            42.333333333333340000
             1902.354166666667000000)
           BandType = rbPageFooter
           object QRSysData4: TQRSysData
@@ -1622,7 +1622,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              867.833333333333300000
+              867.833333333333400000
               0.000000000000000000
               164.041666666666700000)
             Alignment = taCenter
@@ -1652,7 +1652,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            66.145833333333330000
+            66.145833333333340000
             1902.354166666667000000)
           BandType = rbGroupFooter
           object QRLabel10: TQRLabel
@@ -1667,7 +1667,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              859.895833333333300000
+              859.895833333333400000
               21.166666666666670000
               179.916666666666700000)
             Alignment = taCenter
@@ -1877,7 +1877,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
             Frame.DrawRight = False
             Size.Values = (
               55.562500000000000000
-              740.833333333333300000
+              740.833333333333400000
               63.500000000000000000
               415.395833333333300000)
             Alignment = taCenter
@@ -1912,7 +1912,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            42.333333333333330000
+            42.333333333333340000
             1899.708333333333000000)
           BandType = rbColumnHeader
           object QRLabel1: TQRLabel
@@ -1958,7 +1958,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              84.666666666666670000
+              84.666666666666680000
               0.000000000000000000
               140.229166666666700000)
             Alignment = taLeftJustify
@@ -2053,7 +2053,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
               37.041666666666670000
               762.000000000000000000
               0.000000000000000000
-              82.020833333333330000)
+              82.020833333333340000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -2082,7 +2082,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              931.333333333333300000
+              931.333333333333400000
               0.000000000000000000
               330.729166666666700000)
             Alignment = taLeftJustify
@@ -2179,7 +2179,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            42.333333333333330000
+            42.333333333333340000
             1899.708333333333000000)
           BandType = rbDetail
           object QRDBText3: TQRDBText
@@ -2349,7 +2349,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
               37.041666666666670000
               1571.625000000000000000
               0.000000000000000000
-              74.083333333333330000)
+              74.083333333333340000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -2375,7 +2375,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
               37.041666666666670000
               1788.583333333333000000
               0.000000000000000000
-              60.854166666666670000)
+              60.854166666666660000)
             Alignment = taRightJustify
             AlignToBand = False
             AutoSize = True
@@ -2418,7 +2418,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              859.895833333333300000
+              859.895833333333400000
               21.166666666666670000
               179.916666666666700000)
             Alignment = taCenter
@@ -2543,7 +2543,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            42.333333333333330000
+            42.333333333333340000
             1899.708333333333000000)
           BandType = rbPageFooter
           object QRSysData2: TQRSysData
@@ -2601,7 +2601,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
       object Panel2: TPanel
         Left = 0
         Top = 0
-        Width = 834
+        Width = 1004
         Height = 52
         Align = alTop
         BevelInner = bvLowered
@@ -2784,8 +2784,8 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
       object wwDBGrid1: TwwDBGrid
         Left = 0
         Top = 52
-        Width = 834
-        Height = 396
+        Width = 1004
+        Height = 471
         ControlType.Strings = (
           'ISPOST;CheckBox;1;0')
         PictureMasks.Strings = (
@@ -2857,7 +2857,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
       object Panel5: TPanel
         Left = 0
         Top = 0
-        Width = 834
+        Width = 1004
         Height = 121
         Align = alTop
         BevelOuter = bvNone
@@ -2886,7 +2886,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
           Caption = 'No. Bukti Bon'
         end
         object Panel8: TPanel
-          Left = 577
+          Left = 747
           Top = 0
           Width = 257
           Height = 121
@@ -3116,8 +3116,8 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
       end
       object Panel6: TPanel
         Left = 0
-        Top = 404
-        Width = 834
+        Top = 479
+        Width = 1004
         Height = 44
         Align = alBottom
         BevelInner = bvLowered
@@ -3193,7 +3193,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
       object Panel7: TPanel
         Left = 0
         Top = 121
-        Width = 834
+        Width = 1004
         Height = 41
         Align = alTop
         BevelOuter = bvNone
@@ -3222,7 +3222,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
           Caption = 'Status'
         end
         object Panel9: TPanel
-          Left = 577
+          Left = 747
           Top = 0
           Width = 257
           Height = 41
@@ -3448,8 +3448,8 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
       object wwDBGrid2: TwwDBGrid
         Left = 0
         Top = 162
-        Width = 834
-        Height = 242
+        Width = 1004
+        Height = 317
         ControlType.Strings = (
           'ISAKTIF;CheckBox;1;0'
           'ID_HAK;CustomEdit;LookJnsMenu;F'
@@ -3598,8 +3598,8 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
     AfterDelete = QTransaksiAfterDelete
     AfterScroll = QBrowseAfterScroll
     OnNewRecord = QTransaksiNewRecord
-    Left = 380
-    Top = 72
+    Left = 260
+    Top = 88
     object QTransaksiKD_TRANSAKSI: TStringField
       FieldName = 'KD_TRANSAKSI'
       Size = 3
@@ -3662,7 +3662,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
   end
   object dsQTransaksi: TwwDataSource
     DataSet = QTransaksi
-    Left = 404
+    Left = 388
     Top = 105
   end
   object QDetail: TOracleDataSet
@@ -3704,7 +3704,7 @@ object ValidasiBonKMSFrm: TValidasiBonKMSFrm
     BeforeDelete = QTransaksiBeforeEdit
     AfterScroll = QBrowseAfterScroll
     OnNewRecord = QDetailNewRecord
-    Left = 332
+    Left = 316
     Top = 105
     object QDetailSATUAN: TStringField
       FieldKind = fkLookup

@@ -1370,6 +1370,7 @@ var
   i : word;
   vpertama : boolean;
 begin
+  cbDetail.Checked:=False;
   QBrowse20.Open;
   vpertama:=True;
   if cbTanggal20.Checked then

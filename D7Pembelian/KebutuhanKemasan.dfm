@@ -1,6 +1,6 @@
 object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
-  Left = 152
-  Top = 319
+  Left = 243
+  Top = 249
   Width = 1587
   Height = 728
   Caption = 'Kebutuhan Bahan NBB'
@@ -130,7 +130,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
     Top = 41
     Width = 1571
     Height = 593
-    ActivePage = TabSheet1
+    ActivePage = TabSheet2
     Align = alClient
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clNavy
@@ -219,7 +219,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
               37.041666666666670000
               0.000000000000000000
               153.458333333333300000
-              296.333333333333400000)
+              296.333333333333300000)
             Alignment = taLeftJustify
             AlignToBand = True
             AutoSize = True
@@ -234,7 +234,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
           object QRDBText43: TQRDBText
             Left = 592
             Top = 21
-            Width = 63
+            Width = 79
             Height = 21
             Frame.Color = clBlack
             Frame.DrawTop = False
@@ -245,7 +245,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
               55.562500000000000000
               1566.333333333333000000
               55.562500000000000000
-              166.687500000000000000)
+              209.020833333333300000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -1191,7 +1191,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            296.333333333333400000
+            296.333333333333300000
             1902.354166666667000000)
           BandType = rbTitle
           object QRLTitle2: TQRLabel
@@ -1206,9 +1206,9 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
             Frame.DrawRight = False
             Size.Values = (
               55.562500000000000000
-              743.479166666666800000
+              743.479166666666600000
               15.875000000000000000
-              415.395833333333400000)
+              415.395833333333300000)
             Alignment = taCenter
             AlignToBand = True
             AutoSize = True
@@ -1238,7 +1238,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
             Size.Values = (
               37.041666666666670000
               857.250000000000000000
-              68.791666666666680000
+              68.791666666666660000
               185.208333333333300000)
             Alignment = taCenter
             AlignToBand = True
@@ -1290,7 +1290,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
             Frame.DrawLeft = False
             Frame.DrawRight = False
             Size.Values = (
-              92.604166666666680000
+              92.604166666666660000
               0.000000000000000000
               190.500000000000000000
               1402.291666666667000000)
@@ -1505,7 +1505,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            84.666666666666680000
+            84.666666666666660000
             1902.354166666667000000)
           BandType = rbColumnHeader
           object QRLabel11: TQRLabel
@@ -1897,7 +1897,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            42.333333333333340000
+            42.333333333333330000
             1902.354166666667000000)
           BandType = rbDetail
           object QRDBText17: TQRDBText
@@ -2196,7 +2196,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
               37.041666666666670000
               1624.541666666667000000
               21.166666666666670000
-              76.729166666666680000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2228,7 +2228,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
               37.041666666666670000
               1624.541666666667000000
               169.333333333333300000
-              76.729166666666680000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2260,7 +2260,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
               37.041666666666670000
               1201.208333333333000000
               21.166666666666670000
-              76.729166666666680000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2292,7 +2292,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
               37.041666666666670000
               1201.208333333333000000
               169.333333333333300000
-              76.729166666666680000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2324,7 +2324,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
               37.041666666666670000
               227.541666666666700000
               21.166666666666670000
-              76.729166666666680000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2356,7 +2356,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
               37.041666666666670000
               227.541666666666700000
               169.333333333333300000
-              76.729166666666680000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2388,7 +2388,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
               37.041666666666670000
               672.041666666666800000
               169.333333333333300000
-              76.729166666666680000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2420,7 +2420,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
               37.041666666666670000
               672.041666666666800000
               21.166666666666670000
-              76.729166666666680000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2582,7 +2582,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            42.333333333333340000
+            42.333333333333330000
             1902.354166666667000000)
           BandType = rbPageFooter
           object QRSysData4: TQRSysData
@@ -3744,7 +3744,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
               37.041666666666670000
               0.000000000000000000
               10.583333333333330000
-              296.333333333333400000)
+              296.333333333333300000)
             Alignment = taLeftJustify
             AlignToBand = True
             AutoSize = True
@@ -3768,9 +3768,9 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
             Frame.DrawRight = False
             Size.Values = (
               55.562500000000000000
-              791.104166666666800000
+              791.104166666666600000
               63.500000000000000000
-              415.395833333333400000)
+              415.395833333333300000)
             Alignment = taCenter
             AlignToBand = True
             AutoSize = True
@@ -4163,7 +4163,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            42.333333333333340000
+            42.333333333333330000
             2000.250000000000000000)
           BandType = rbDetail
           object QRDBText44: TQRDBText
@@ -4385,7 +4385,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
               37.041666666666670000
               1740.958333333333000000
               0.000000000000000000
-              60.854166666666680000)
+              60.854166666666660000)
             Alignment = taRightJustify
             AlignToBand = False
             AutoSize = True
@@ -4579,7 +4579,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            42.333333333333340000
+            42.333333333333330000
             2000.250000000000000000)
           BandType = rbPageFooter
           object QRSysData2: TQRSysData
@@ -5336,7 +5336,7 @@ object KebutuhanKemasanFrm: TKebutuhanKemasanFrm
           Caption = 'Status'
         end
         object Panel9: TPanel
-          Left = 743
+          Left = 1306
           Top = 0
           Width = 257
           Height = 41
