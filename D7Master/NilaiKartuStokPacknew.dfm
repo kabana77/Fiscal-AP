@@ -1,7 +1,7 @@
 object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
   Left = 263
   Top = 222
-  Width = 1589
+  Width = 1382
   Height = 683
   Caption = 'Nilai Persediaan Packing (rata-rata bergerak)'
   Color = clBtnFace
@@ -24,7 +24,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
   object Panel1: TPanel
     Left = 0
     Top = 574
-    Width = 1573
+    Width = 1366
     Height = 70
     Align = alBottom
     TabOrder = 0
@@ -129,7 +129,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
     object LMDProgress1: TProgressBar
       Left = 1
       Top = 52
-      Width = 1571
+      Width = 1364
       Height = 17
       Align = alBottom
       Smooth = True
@@ -242,7 +242,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
   object PageControl1: TPageControl
     Left = 0
     Top = 41
-    Width = 1573
+    Width = 1366
     Height = 533
     ActivePage = TabSheet1
     Align = alClient
@@ -3274,7 +3274,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
       object Panel2: TPanel
         Left = 0
         Top = 0
-        Width = 1565
+        Width = 1358
         Height = 52
         Align = alTop
         BevelInner = bvLowered
@@ -3465,7 +3465,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
       object PanelGrid: TPanel
         Left = 0
         Top = 52
-        Width = 1565
+        Width = 1358
         Height = 453
         Align = alClient
         Caption = 'PanelGrid'
@@ -3473,7 +3473,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
         object wwDBGrid1: TwwDBGrid
           Left = 1
           Top = 1
-          Width = 1563
+          Width = 1356
           Height = 451
           ControlType.Strings = (
             'ISPOST;CheckBox;1;0')
@@ -3538,7 +3538,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
       object Panel6: TPanel
         Left = 0
         Top = 461
-        Width = 1565
+        Width = 1358
         Height = 44
         Align = alBottom
         BevelInner = bvLowered
@@ -3663,7 +3663,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
       object PanelRiwayat: TPanel
         Left = 0
         Top = 0
-        Width = 1152
+        Width = 945
         Height = 461
         Align = alClient
         Caption = 'PanelRiwayat'
@@ -5280,7 +5280,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
         object Panel7: TPanel
           Left = 1
           Top = 98
-          Width = 1150
+          Width = 943
           Height = 41
           Align = alTop
           BevelOuter = bvNone
@@ -5362,7 +5362,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
         object Panel5: TPanel
           Left = 1
           Top = 1
-          Width = 1150
+          Width = 943
           Height = 97
           Align = alTop
           BevelOuter = bvNone
@@ -5464,7 +5464,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
         object wwDBGrid2: TwwDBGrid
           Left = 1
           Top = 139
-          Width = 1150
+          Width = 943
           Height = 321
           ControlType.Strings = (
             'ISAKTIF;CheckBox;1;0'
@@ -5527,7 +5527,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
         end
       end
       object PanelEdit: TPanel
-        Left = 1152
+        Left = 945
         Top = 0
         Width = 413
         Height = 461
@@ -5620,6 +5620,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
             RepeatInterval.Interval = 100
             Align = alClient
             Color = clMoneyGreen
+            Enabled = False
             Font.Charset = DEFAULT_CHARSET
             Font.Color = clBlue
             Font.Height = -11
@@ -5716,7 +5717,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
       object PageControl2: TPageControl
         Left = 0
         Top = 0
-        Width = 1565
+        Width = 1358
         Height = 505
         ActivePage = TabSheet4
         Align = alClient
@@ -8855,7 +8856,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
   object Panel4: TPanel
     Left = 0
     Top = 0
-    Width = 1573
+    Width = 1366
     Height = 41
     Align = alTop
     BevelOuter = bvNone

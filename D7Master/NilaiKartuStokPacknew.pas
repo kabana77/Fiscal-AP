@@ -1588,6 +1588,8 @@ procedure TNilaiKartuStokPacknewFrm.wwCheckBox1KeyUp(Sender: TObject;
   var Key: Word; Shift: TShiftState);
 begin
  QTransaksi.Post;
+ if (wwCheckBox1.Checked=True) then wwDBNavigator1Delete.Enabled:=false else wwDBNavigator1Delete.Enabled:=true;
+ wwDBNavigator1Delete.Refresh;
 end;
 
 procedure TNilaiKartuStokPacknewFrm.CheckBox1Click(Sender: TObject);

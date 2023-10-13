@@ -1,6 +1,6 @@
 object MainFrm: TMainFrm
-  Left = 341
-  Top = 185
+  Left = 198
+  Top = 117
   Width = 1187
   Height = 631
   Caption = 'PT. KABANATEX'

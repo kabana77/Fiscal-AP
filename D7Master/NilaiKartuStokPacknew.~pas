@@ -457,18 +457,14 @@ type
     PEControls: TPanel;
     PEDetail: TPanel;
     wwDBNavigator1: TwwDBNavigator;
-    wwDBNavigator1Prior: TwwNavButton;
-    wwDBNavigator1Next: TwwNavButton;
     wwDBNavigator1Delete: TwwNavButton;
-    wwDBNavigator1Edit: TwwNavButton;
-    wwDBNavigator1Post: TwwNavButton;
-    wwDBNavigator1Cancel: TwwNavButton;
     Label22: TLabel;
     DBText10: TDBText;
     wwCheckBox1: TwwCheckBox;
     dsQTransaksi: TwwDataSource;
     dsQDetail: TwwDataSource;
     wwDBGrid5: TwwDBGrid;
+    CheckBox1: TCheckBox;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormCreate(Sender: TObject);
     procedure wwDBGrid1TitleButtonClick(Sender: TObject;
@@ -542,6 +538,7 @@ type
       ABrush: TBrush);
     procedure wwCheckBox1KeyUp(Sender: TObject; var Key: Word;
       Shift: TShiftState);
+    procedure CheckBox1Click(Sender: TObject);
   private
     { Private declarations }
     vfilter, vorder, vfilter2 : String;
@@ -1591,6 +1588,13 @@ procedure TNilaiKartuStokPacknewFrm.wwCheckBox1KeyUp(Sender: TObject;
   var Key: Word; Shift: TShiftState);
 begin
  QTransaksi.Post;
+ if (wwCheckBox1.Checked=True) then wwDBNavigator1Delete.Enabled:=false else wwDBNavigator1Delete.Enabled:=true;
+ wwDBNavigator1Delete.Refresh;
+end;
+
+procedure TNilaiKartuStokPacknewFrm.CheckBox1Click(Sender: TObject);
+begin
+  if CheckBox1.Checked=true then PanelEdit.Visible:=True else PanelEdit.Visible:=False;
 end;
 
 end.
