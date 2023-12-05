@@ -5521,6 +5521,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
           TitleButtons = True
           UseTFields = False
           OnDblClick = wwDBGrid2DblClick
+          OnEnter = wwDBGrid2Enter
           OnUpdateFooter = wwDBGrid2UpdateFooter
           PaintOptions.AlternatingRowColor = clMoneyGreen
           PaintOptions.ActiveRecordColor = clGreen
@@ -5810,7 +5811,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
               object QRDBText39: TQRDBText
                 Left = 5
                 Top = 58
-                Width = 136
+                Width = 171
                 Height = 21
                 Frame.Color = clBlack
                 Frame.DrawTop = False
@@ -5821,7 +5822,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
                   55.562500000000000000
                   13.229166666666670000
                   153.458333333333300000
-                  359.833333333333300000)
+                  452.437500000000000000)
                 Alignment = taLeftJustify
                 AlignToBand = False
                 AutoSize = True
@@ -6890,7 +6891,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
                 Frame.DrawRight = False
                 Size.Values = (
                   37.041666666666670000
-                  836.083333333333200000
+                  836.083333333333300000
                   34.395833333333330000
                   71.437500000000000000)
                 Alignment = taCenter
@@ -6923,7 +6924,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
                   37.041666666666670000
                   1248.833333333333000000
                   34.395833333333330000
-                  89.958333333333320000)
+                  89.958333333333330000)
                 Alignment = taCenter
                 AlignToBand = False
                 AutoSize = True
@@ -7028,9 +7029,9 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
                 Shape = qrsVertLine
               end
               object QRExpr8: TQRExpr
-                Left = 232
+                Left = 197
                 Top = 3
-                Width = 161
+                Width = 196
                 Height = 16
                 Frame.Color = clBlack
                 Frame.DrawTop = False
@@ -7039,9 +7040,9 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
                 Frame.DrawRight = False
                 Size.Values = (
                   42.333333333333330000
-                  613.833333333333200000
+                  521.229166666666700000
                   7.937500000000000000
-                  425.979166666666700000)
+                  518.583333333333300000)
                 Alignment = taRightJustify
                 AlignToBand = False
                 AutoSize = True
@@ -7093,9 +7094,9 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
                 FontSize = 7
               end
               object QRExpr9: TQRExpr
-                Left = 403
+                Left = 368
                 Top = 3
-                Width = 162
+                Width = 197
                 Height = 16
                 Frame.Color = clBlack
                 Frame.DrawTop = False
@@ -7104,9 +7105,9 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
                 Frame.DrawRight = False
                 Size.Values = (
                   42.333333333333330000
-                  1066.270833333333000000
+                  973.666666666666700000
                   7.937500000000000000
-                  428.625000000000000000)
+                  521.229166666666700000)
                 Alignment = taRightJustify
                 AlignToBand = False
                 AutoSize = True
@@ -7309,7 +7310,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
               object QRDBText41: TQRDBText
                 Left = 35
                 Top = 2
-                Width = 59
+                Width = 68
                 Height = 16
                 Frame.Color = clBlack
                 Frame.DrawTop = False
@@ -7318,9 +7319,9 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
                 Frame.DrawRight = False
                 Size.Values = (
                   42.333333333333330000
-                  92.604166666666680000
+                  92.604166666666670000
                   5.291666666666667000
-                  156.104166666666700000)
+                  179.916666666666700000)
                 Alignment = taLeftJustify
                 AlignToBand = False
                 AutoSize = True
@@ -7339,9 +7340,9 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
                 FontSize = 8
               end
               object QRDBText42: TQRDBText
-                Left = 337
+                Left = 329
                 Top = 2
-                Width = 55
+                Width = 63
                 Height = 16
                 Frame.Color = clBlack
                 Frame.DrawTop = False
@@ -7350,9 +7351,9 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
                 Frame.DrawRight = False
                 Size.Values = (
                   42.333333333333330000
-                  891.645833333333200000
+                  870.479166666666700000
                   5.291666666666667000
-                  145.520833333333300000)
+                  166.687500000000000000)
                 Alignment = taRightJustify
                 AlignToBand = False
                 AutoSize = True
@@ -7372,9 +7373,9 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
                 FontSize = 8
               end
               object QRDBText44: TQRDBText
-                Left = 511
+                Left = 501
                 Top = 2
-                Width = 53
+                Width = 63
                 Height = 16
                 Frame.Color = clBlack
                 Frame.DrawTop = False
@@ -7383,9 +7384,9 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
                 Frame.DrawRight = False
                 Size.Values = (
                   42.333333333333330000
-                  1352.020833333333000000
+                  1325.562500000000000000
                   5.291666666666667000
-                  140.229166666666700000)
+                  166.687500000000000000)
                 Alignment = taRightJustify
                 AlignToBand = False
                 AutoSize = True
@@ -7477,7 +7478,7 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
           object Panel8: TPanel
             Left = 0
             Top = 0
-            Width = 1012
+            Width = 1350
             Height = 41
             Align = alTop
             TabOrder = 0
@@ -7506,8 +7507,8 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
           object wwDBGrid4: TwwDBGrid
             Left = 0
             Top = 41
-            Width = 1012
-            Height = 270
+            Width = 1350
+            Height = 436
             ControlType.Strings = (
               'ISAKTIF;CheckBox;1;0'
               'ID_HAK;CustomEdit;LookJnsMenu;F'
@@ -9421,8 +9422,8 @@ object NilaiKartuStokPacknewFrm: TNilaiKartuStokPacknewFrm
   end
   object dsQRekapPemakaianPerBag: TwwDataSource
     DataSet = QRekapPemakaianPerBag
-    Left = 420
-    Top = 153
+    Left = 356
+    Top = 129
   end
   object QRekapPerMesin: TOracleDataSet
     SQL.Strings = (

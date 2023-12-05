@@ -53,7 +53,6 @@ type
     QLookSubBagianID_SUB_BAG: TStringField;
     Label14: TLabel;
     vRecord: TwwDBSpinEdit;
-    Button1: TButton;
     cbPreview: TCheckBox;
     Label15: TLabel;
     vHeight: TwwDBSpinEdit;
@@ -411,6 +410,60 @@ type
     QRLBerjalan3: TQRLabel;
     QRLBerjalan4: TQRLabel;
     QRGroup1: TQRGroup;
+    PanelRiwayat: TPanel;
+    PanelEdit: TPanel;
+    QTransaksi: TOracleDataSet;
+    QTransaksiKD_TRANSAKSI: TStringField;
+    QTransaksiTANGGAL: TDateTimeField;
+    QTransaksiNO_REFF: TStringField;
+    QTransaksiNO_NOTA: TStringField;
+    QTransaksiKETERANGAN: TStringField;
+    QTransaksiISPOST: TStringField;
+    QTransaksiSTATUS: TStringField;
+    QTransaksiTGL_INSERT: TDateTimeField;
+    QTransaksiOPR_INSERT: TStringField;
+    QTransaksiTTD1: TStringField;
+    QTransaksiTTD2: TStringField;
+    QTransaksiTTD3: TStringField;
+    QTransaksiTTD4: TStringField;
+    QTransaksiNO_REG_PEMAKAIAN: TIntegerField;
+    QTransaksiNO_REG_BON: TIntegerField;
+    QTransaksiJNS_KOREKSI: TStringField;
+    QDetail: TOracleDataSet;
+    QDetailSATUAN: TStringField;
+    QDetailNO_REG_PEMAKAIAN: TIntegerField;
+    QDetailNO_REG_BON: TIntegerField;
+    QDetailKD_ITEM: TStringField;
+    QDetailMESIN: TStringField;
+    QDetailQTY_STOK: TFloatField;
+    QDetailKETERANGAN: TStringField;
+    QDetailQTY_BON: TFloatField;
+    QDetailQTY_VALID: TFloatField;
+    QDetailQTY: TFloatField;
+    QDetailHARGA: TFloatField;
+    QDetailSTATUS: TStringField;
+    QDetailID_BAG: TStringField;
+    QDetailID_SUB_BAG: TStringField;
+    QDetailKD_SUB_LOKASI: TStringField;
+    QDetailKD_LOKASI: TStringField;
+    QDetailLOKASI: TStringField;
+    QDetailOPR_INSERT: TStringField;
+    QDetailTGL_INSERT: TDateTimeField;
+    QDetailKD_MESIN: TStringField;
+    QDetailNO_MESIN_TENUN: TStringField;
+    QDetailKD_JNS_ITEM: TStringField;
+    dsQTransaksi: TwwDataSource;
+    dsQDetail: TwwDataSource;
+    PEMaster: TPanel;
+    Label22: TLabel;
+    DBText10: TDBText;
+    wwCheckBox1: TwwCheckBox;
+    PEDetail: TPanel;
+    wwDBGrid5: TwwDBGrid;
+    PEControls: TPanel;
+    wwDBNavigator1: TwwDBNavigator;
+    wwDBNavigator1Delete: TwwNavButton;
+    CheckBox1: TCheckBox;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormCreate(Sender: TObject);
     procedure wwDBGrid1TitleButtonClick(Sender: TObject;
@@ -472,6 +525,20 @@ type
       var PrintBand: Boolean);
     procedure QRBand1BeforePrint(Sender: TQRCustomBand;
       var PrintBand: Boolean);
+    procedure CheckBox1Click(Sender: TObject);
+    procedure wwDBGrid2RowChanged(Sender: TObject);
+    procedure wwDBGrid5CalcCellColors(Sender: TObject; Field: TField;
+      State: TGridDrawState; Highlight: Boolean; AFont: TFont;
+      ABrush: TBrush);
+    procedure wwDBGrid5Enter(Sender: TObject);
+    procedure wwCheckBox1KeyUp(Sender: TObject; var Key: Word;
+      Shift: TShiftState);
+    procedure QTransaksiAfterDelete(DataSet: TDataSet);
+    procedure QTransaksiAfterPost(DataSet: TDataSet);
+    procedure QTransaksiBeforeDelete(DataSet: TDataSet);
+    procedure QDetailBeforeDelete(DataSet: TDataSet);
+    procedure QDetailBeforeEdit(DataSet: TDataSet);
+    procedure wwDBGrid2Enter(Sender: TObject);
   private
     { Private declarations }
     vfilter, vorder, vfilter2 : String;
@@ -1400,6 +1467,117 @@ procedure TNilaiKartuStokATKnewFrm.QRBand1BeforePrint(
 begin
   QRLBerjalan3.Caption:=FormatFloat('0.0,0;(0.0,0);-',QBrowseSALDO_QTY.AsFloat);
   QRLBerjalan4.Caption:=FormatFloat('0.0,0;(0.0,0);-',QBrowseSALDO_VAL.AsFloat);
+end;
+
+procedure TNilaiKartuStokATKnewFrm.CheckBox1Click(Sender: TObject);
+begin
+  if CheckBox1.Checked=true then PanelEdit.Visible:=True else PanelEdit.Visible:=False;
+end;
+
+procedure TNilaiKartuStokATKnewFrm.wwDBGrid2RowChanged(Sender: TObject);
+begin
+  QTransaksi.Close;
+  QTransaksi.SetVariable('no_nota', QRiwayatTransaksiNO_NOTA.AsString);
+  QTransaksi.Open;
+
+  QDetail.Close;
+  QDetail.SetVariable('no_reg_pemakaian', QTransaksiNO_REG_PEMAKAIAN.AsInteger);
+  QDetail.Open;
+  
+  wwDBGrid5.Refresh;
+  wwDBNavigator1.Refresh;
+  DBText10.Refresh;
+  wwCheckBox1.Refresh;
+end;
+
+procedure TNilaiKartuStokATKnewFrm.wwDBGrid5CalcCellColors(Sender: TObject;
+  Field: TField; State: TGridDrawState; Highlight: Boolean; AFont: TFont;
+  ABrush: TBrush);
+begin
+  if not Highlight then
+    if (Sender as TwwDBGrid).ColumnByName(Field.FieldName).ReadOnly then
+    begin
+      ABrush.Color:=DMFrm.vclGridRead;
+      AFont.Color:=DMFrm.vclGridReadFont;
+    end
+    else
+    begin
+      ABrush.Color:=DMFrm.vclGridEdit;
+      AFont.Color:=DMFrm.vclGridEditFont;
+    end;
+end;
+
+procedure TNilaiKartuStokATKnewFrm.wwDBGrid5Enter(Sender: TObject);
+begin
+  if QTransaksiISPOST.AsString='1' then
+     wwDBGrid5.Options:=wwDBGrid5.Options+[dgRowSelect]
+     else
+     wwDBGrid5.Options:=wwDBGrid5.Options-[dgRowSelect];
+end;
+
+procedure TNilaiKartuStokATKnewFrm.wwCheckBox1KeyUp(Sender: TObject;
+  var Key: Word; Shift: TShiftState);
+begin
+ QTransaksi.Post;
+ if (wwCheckBox1.Checked=True) then wwDBNavigator1Delete.Enabled:=false else wwDBNavigator1Delete.Enabled:=true;
+ wwDBNavigator1Delete.Refresh;
+end;
+
+procedure TNilaiKartuStokATKnewFrm.QTransaksiAfterDelete(
+  DataSet: TDataSet);
+begin
+  QRiwayatTransaksi.Refresh;
+  wwDBGrid2.Refresh;
+end;
+
+procedure TNilaiKartuStokATKnewFrm.QTransaksiAfterPost(DataSet: TDataSet);
+begin
+  QRiwayatTransaksi.Refresh;
+  wwDBGrid2.Refresh;
+end;
+
+procedure TNilaiKartuStokATKnewFrm.QTransaksiBeforeDelete(
+  DataSet: TDataSet);
+begin
+  if QTransaksiISPOST.AsString='1' then
+  begin
+      ShowMessage('Maaf, data sudah di-POSTING, tidak bisa diubah !');
+      Abort;
+  end;
+end;
+
+procedure TNilaiKartuStokATKnewFrm.QDetailBeforeDelete(DataSet: TDataSet);
+begin
+  if QTransaksiISPOST.AsString='1' then
+  begin
+      ShowMessage('Maaf, data sudah di-POSTING, tidak bisa diubah !');
+      Abort;
+  end;
+end;
+
+procedure TNilaiKartuStokATKnewFrm.QDetailBeforeEdit(DataSet: TDataSet);
+begin
+  if QTransaksiISPOST.AsString='1' then
+  begin
+      ShowMessage('Maaf, data sudah di-POSTING, tidak bisa diubah !');
+      Abort;
+  end;
+end;
+
+procedure TNilaiKartuStokATKnewFrm.wwDBGrid2Enter(Sender: TObject);
+begin
+  QTransaksi.Close;
+  QTransaksi.SetVariable('no_nota', QRiwayatTransaksiNO_NOTA.AsString);
+  QTransaksi.Open;
+
+  QDetail.Close;
+  QDetail.SetVariable('no_reg_pemakaian', QTransaksiNO_REG_PEMAKAIAN.AsInteger);
+  QDetail.Open;
+  
+  wwDBGrid5.Refresh;
+  wwDBNavigator1.Refresh;
+  DBText10.Refresh;
+  wwCheckBox1.Refresh;
 end;
 
 end.

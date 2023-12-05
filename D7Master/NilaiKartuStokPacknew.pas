@@ -539,6 +539,7 @@ type
     procedure wwCheckBox1KeyUp(Sender: TObject; var Key: Word;
       Shift: TShiftState);
     procedure CheckBox1Click(Sender: TObject);
+    procedure wwDBGrid2Enter(Sender: TObject);
   private
     { Private declarations }
     vfilter, vorder, vfilter2 : String;
@@ -1595,6 +1596,22 @@ end;
 procedure TNilaiKartuStokPacknewFrm.CheckBox1Click(Sender: TObject);
 begin
   if CheckBox1.Checked=true then PanelEdit.Visible:=True else PanelEdit.Visible:=False;
+end;
+
+procedure TNilaiKartuStokPacknewFrm.wwDBGrid2Enter(Sender: TObject);
+begin
+  QTransaksi.Close;
+  QTransaksi.SetVariable('no_nota', QRiwayatTransaksiNO_NOTA.AsString);
+  QTransaksi.Open;
+
+  QDetail.Close;
+  QDetail.SetVariable('no_reg_pemakaian', QTransaksiNO_REG_PEMAKAIAN.AsInteger);
+  QDetail.Open;
+  
+  wwDBGrid5.Refresh;
+  wwDBNavigator1.Refresh;
+  DBText10.Refresh;
+  wwCheckBox1.Refresh;
 end;
 
 end.
